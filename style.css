@@ -1,0 +1,36 @@
+/* css reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+
+body{
+    background: #100f4b;
+    color: #fff;
+    height: 100%;
+    display:grid;
+    place-items: center;
+
+}
+
+body main >div:first-child{
+    background: #300213;
+    width:fit-content ;
+}
+
+#nigg:hover{
+    background-color: var(--gooning);
+    
+}
+
+:root{
+    --gooning: orange;
+}
+
+div{
+    transition: 0.6s;
+}
